@@ -1,0 +1,38 @@
+{
+    "name": "plum/plum",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/gen"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/reflect"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/inject"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/mapper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/http"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/rest"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/william-wijaya/rest-server"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "plum/rest-server": "@dev"
+    }
+}
+
